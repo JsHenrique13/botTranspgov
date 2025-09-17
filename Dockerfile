@@ -10,4 +10,4 @@ RUN pip install --upgrade pip \
 
 ENV FLASK_APP=run.py
 
-CMD ["flask", "run", "--host=0.0.0.0", "--port=5000"]
+CMD ["flask", "run", "--host=0.0.0.0", "--port=8080"]
